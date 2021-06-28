@@ -97,7 +97,7 @@ main p{
 .container-article{
     position: relative;
     text-align: left;
-    background-image:url(../../img/media.webp);   
+    background-image:url(../img/media.webp);   
     height:100%;
     background-repeat:no-repeat;  
     margin-right: 50px;
@@ -106,7 +106,7 @@ main p{
 .container-articleone{
   position: relative;
   text-align: left;
-  background-image:url(../../img/tesla.webp);   
+  background-image:url(../img/tesla.webp);   
   height:100%;
   background-repeat:no-repeat;  
   margin-bottom:50px;
@@ -114,7 +114,7 @@ main p{
 .container-articletwo{
   position: relative;
   text-align: left;
-  background-image:url(../../img/salon.webp);   
+  background-image:url(../img/salon.webp);   
   height:100%;
   background-repeat:no-repeat;  
   margin-bottom:50px;
@@ -122,7 +122,7 @@ main p{
 .container-articlethree{
   position: relative;
   text-align: left;
-  background-image:url(../../img/tesla1.webp); 
+  background-image:url(../img/tesla1.webp); 
   background-size: auto, auto;
   height:100%;
   background-repeat:no-repeat;  
