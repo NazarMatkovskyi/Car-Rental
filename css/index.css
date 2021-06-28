@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
+
+:root {
+  font-family: "Secular One", sans-serif;
+}
+
+body {
+  background-image: url('../../img/teslaheader.webp');
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+
+.nivagation {
+  margin-bottom: 150px;
+}
+
+.navbar-nav{
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.car-rental {
+  font-size: 160px;
+  word-wrap: break-word;
+  color:#f6c43d;
+  margin-bottom: 0;
+}
+
+.blue-color {
+  color: #165bfb;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.pricing-btn {
+  margin-left: 15px;
+  color: #f6c43d;
+  text-decoration: none;
+}
+
+.card-text{
+  font-size: 17px;
+  font-family: sans-serif; 
+  color: #898989;
+}
+
+.card{
+  border: none;
+  height: 100%;
+  
+}
+
+main p{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.fone{
+  margin-top: -600px;
+  color: #f6c43d;
+}
+
+.title{
+  font-size: 60px;
+}
+
+.font{
+  font-size: 18px;
+  font-weight: normal;
+  color: #898989;
+  font-family: sans-serif;
+}
+
+.container-review{
+  text-align: center;
+  margin-top: 6rem;
+  font-family: sans-serif;
+}
+.fontone{
+  color:#f6c43d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.titleone{
+  font-size: 60px;
+  font-weight: bold;
+}
+.coldescription{
+  color: #898989;
+  font-family: sans-serif;
+  font-weight:normal;
+  font-size: 18px;
+}
+.container-article{
+    position: relative;
+    text-align: left;
+    background-image:url(../../img/media.webp);   
+    height:100%;
+    background-repeat:no-repeat;  
+    margin-right: 50px;
+    margin-bottom:50px;
+    }
+.container-articleone{
+  position: relative;
+  text-align: left;
+  background-image:url(../../img/tesla.webp);   
+  height:100%;
+  background-repeat:no-repeat;  
+  margin-bottom:50px;
+}
+.container-articletwo{
+  position: relative;
+  text-align: left;
+  background-image:url(../../img/salon.webp);   
+  height:100%;
+  background-repeat:no-repeat;  
+  margin-bottom:50px;
+}
+.container-articlethree{
+  position: relative;
+  text-align: left;
+  background-image:url(../../img/tesla1.webp); 
+  background-size: auto, auto;
+  height:100%;
+  background-repeat:no-repeat;  
+  margin-right: 50px;
+  margin-bottom:50px;
+}
+.imageone{
+  border-radius: 0.5%;
+  height:100%;
+  background-repeat:no-repeat;
+
+}
+.year{
+  color:#898989;
+	padding	: 120px;
+  font-size: 18px;
+}
+.yearone{
+  font-size: 40px;
+color:#f6c43d;
+position: absolute;
+left: 120px;
+top: 45px;
+}
+.yeartwo{
+  font-size: 40px;
+  color:#f6c43d;
+  position: absolute;
+  left: 120px;
+  top: 45px;
+  margin-left: 40rem;
+}
+.contentyer{
+  color:#898989;
+	padding	: 120px;
+  font-size: 18px;
+  margin-left: 40rem;
+}
+.container-cards{
+  margin-top: 10rem;
+  background-color: #222222;
+  text-align:center; 
+  margin-right: -195px ;
+  margin-left: -196px;
+}
+
+
+.titlecard{
+  text-align: center;
+  font-size: px;
+  color: #f6c43d;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+.headercard{
+text-align: center;
+color: #ffffff;
+font-size: 60px;
+}
+.contcard{
+  text-align: center;
+  color:#898989;
+  margin-top: 20px;
+ 
+}
+.containernext{
+  margin-top: 300px;
+}
+.imagealf{
+  margin-bottom:100px;
+  margin-left: 39rem;
+  margin-right: 5rem;
+  margin-top: -28rem;
+  width:52%;
+  padding-right: 50px;
+  ;
+
+}
+
+   .paragrafblock {
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     padding-bottom: 100px;
+     text-align: left;
+   }
+
+  .clock{
+     margin-top: 10px;
+     margin-left: 30px;
+     font-family: sans-serif;
+     color:#f6c43d
+   }
+
+  .card-bod{
+    margin-top: 100px;
+    padding-top: 100px;
+   }
+  
+  .blocks{
+    margin-top: 100px;
+    padding-left: 50px;
+  }
+  .paragrafone{
+    margin-top: 5rem;
+    text-align: center;
+    color:#f6c43d
+    
+  }
+  .titleblocks{
+    text-align: center;
+    font-size: 4rem;
+    font-family: sans-serif;
+  }
+  .partext{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color:#898989
+
+  }
+  .listone{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-width:0px;
+    border:none;
+  }
+  .listtwo{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .listthree{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }.listfour{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .block{
+    background-color:#222222;
+    margin-right: -195px ;
+    margin-left: -196px;
+    color:#f5f5f5
+    
+  }
+ .headcar{
+   padding-top: 50px;
+   padding-right: 20px;
+   text-align: center;
+   font-size: 20px;
+   color:#f6c43d;
+ }
+ .headca{
+   text-align:center;
+   padding-top: 40px;
+   font-size: 70px;
+ }
+ .headc{
+   font-size: 18px;
+   text-align:center;
+   padding-top: 20px;
+   color:#898989
+  }
+  #carouselExampleControls{
+    width: 50%;
+    margin-left: 25%;
+  }
