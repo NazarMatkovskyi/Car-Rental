@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Secular+One&display=swap");
-
 :root {
   font-family: "Secular One", sans-serif;
 }
 
 body {
-  background-image: url('../../img/teslaheader.webp');
+  background-image: url('../img/teslaheader.webp');
   background-repeat: no-repeat;
   background-color: #f5f5f5;
 }
