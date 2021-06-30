@@ -165,11 +165,15 @@ top: 45px;
   margin-top: 10rem;
   background-color: #222222;
   text-align:center; 
-  margin-right: -195px ;
-  margin-left: -196px;
+  margin-right: -111px ;
+  margin-left: -111px;
 }
-
-
+.cardgrey{
+  background-color:#222222;
+}
+.card-title{
+  color: #f5f5f5;
+}
 .titlecard{
   text-align: center;
   font-size: px;
@@ -224,7 +228,8 @@ font-size: 60px;
   
   .blocks{
     margin-top: 100px;
-    padding-left: 50px;
+    padding-left: 30px;
+    
   }
   .paragrafone{
     margin-top: 5rem;
@@ -244,13 +249,21 @@ font-size: 60px;
     color:#898989
 
   }
+  .lists{
+    border:none;
+    color: #898989;
+    margin-top: 15px;
+    height: 40px;
+
+  }
+  
   .listone{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-width:0px;
-    border:none;
+   
   }
   .listtwo{
     text-align: center;
@@ -272,8 +285,8 @@ font-size: 60px;
 
   .block{
     background-color:#222222;
-    margin-right: -195px ;
-    margin-left: -196px;
+    margin-right: -111px ;
+    margin-left: -111px;
     color:#f5f5f5
     
   }
@@ -298,4 +311,60 @@ font-size: 60px;
   #carouselExampleControls{
     width: 50%;
     margin-left: 25%;
+  }
+  .bd-example{
+    background-color:#222222;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:unset; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #ffffff;
+    background-size:100%;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 100px;
+    border: 2px solid #f6c43d;
+    width: 30%; /* Could be more or less, depending on screen size */
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color:#898989;
+    text-align: right;
+    margin-top:-90px;
+    margin-right: -70px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+   
+  }
+  .contentmod{
+    margin-top: 40px;
+    color: #898989;
+    text-align: center;
+    text-decoration: #f6c43d;
+   
+  }
+  .closes{
+    margin-top: 40px;
+    text-align: center;
   }
