@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('../img/teslaheader.webp');
+  background-image: url("../img/teslaheader.webp");
   background-repeat: no-repeat;
   background-color: #f5f5f5;
 }
@@ -12,7 +12,7 @@ body {
   margin-bottom: 150px;
 }
 
-.navbar-nav{
+.navbar-nav {
   font-size: 1.2rem;
   color: rgb(0, 0, 0);
 }
@@ -20,7 +20,7 @@ body {
 .car-rental {
   font-size: 160px;
   word-wrap: break-word;
-  color:#f6c43d;
+  color: #f6c43d;
   margin-bottom: 0;
 }
 
@@ -38,331 +38,420 @@ body {
   text-decoration: none;
 }
 
-.card-text{
+.card-text {
   font-size: 17px;
-  font-family: sans-serif; 
+  font-family: sans-serif;
   color: #898989;
 }
 
-.card{
+.card {
   border: none;
   height: 100%;
-  
 }
 
-main p{
+main p {
   font-weight: bold;
   font-size: 18px;
 }
 
-.fone{
+.fone {
   margin-top: -600px;
   color: #f6c43d;
 }
 
-.title{
+.title {
   font-size: 60px;
 }
 
-.font{
+.font {
   font-size: 18px;
   font-weight: normal;
   color: #898989;
   font-family: sans-serif;
 }
 
-.container-review{
+.container-review {
   text-align: center;
   margin-top: 6rem;
   font-family: sans-serif;
 }
-.fontone{
-  color:#f6c43d;
+.fontone {
+  color: #f6c43d;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
 }
-.titleone{
+.titleone {
   font-size: 60px;
   font-weight: bold;
 }
-.coldescription{
+.coldescription {
   color: #898989;
   font-family: sans-serif;
-  font-weight:normal;
+  font-weight: normal;
   font-size: 18px;
 }
-.container-article{
-    position: relative;
-    text-align: left;
-    background-image:url(../img/media.webp);   
-    height:100%;
-    background-repeat:no-repeat;  
-    margin-right: 50px;
-    margin-bottom:50px;
-    }
-.container-articleone{
+.container-article {
   position: relative;
   text-align: left;
-  background-image:url(../img/tesla.webp);   
-  height:100%;
-  background-repeat:no-repeat;  
-  margin-bottom:50px;
-}
-.container-articletwo{
-  position: relative;
-  text-align: left;
-  background-image:url(../img/salon.webp);   
-  height:100%;
-  background-repeat:no-repeat;  
-  margin-bottom:50px;
-}
-.container-articlethree{
-  position: relative;
-  text-align: left;
-  background-image:url(../img/tesla1.webp); 
-  background-size: auto, auto;
-  height:100%;
-  background-repeat:no-repeat;  
+  background-image: url(../img/media.webp);
+  height: 100%;
+  background-repeat: no-repeat;
   margin-right: 50px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-.imageone{
+.container-articleone {
+  position: relative;
+  text-align: left;
+  background-image: url(../img/tesla.webp);
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.container-articletwo {
+  position: relative;
+  text-align: left;
+  background-image: url(../img/salon.webp);
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.container-articlethree {
+  position: relative;
+  text-align: left;
+  background-image: url(../img/tesla1.webp);
+  background-size: auto, auto;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.imageone {
   border-radius: 0.5%;
-  height:100%;
-  background-repeat:no-repeat;
-
+  height: 100%;
+  background-repeat: no-repeat;
 }
-.year{
-  color:#898989;
-	padding	: 120px;
+.year {
+  color: #898989;
+  padding: 120px;
   font-size: 18px;
 }
-.yearone{
+.yearone {
   font-size: 40px;
-color:#f6c43d;
-position: absolute;
-left: 120px;
-top: 45px;
+  color: #f6c43d;
+  position: absolute;
+  left: 120px;
+  top: 45px;
 }
-.yeartwo{
+.yeartwo {
   font-size: 40px;
-  color:#f6c43d;
+  color: #f6c43d;
   position: absolute;
   left: 120px;
   top: 45px;
   margin-left: 40rem;
 }
-.contentyer{
-  color:#898989;
-	padding	: 120px;
+.contentyer {
+  color: #898989;
+  padding: 120px;
   font-size: 18px;
   margin-left: 40rem;
 }
-.container-cards{
+.container-cards {
   margin-top: 10rem;
   background-color: #222222;
-  text-align:center; 
-  margin-right: -111px ;
+  text-align: center;
+  margin-right: -111px;
   margin-left: -111px;
 }
-.cardgrey{
-  background-color:#222222;
+.cardgrey {
+  background-color: #222222;
 }
-.card-title{
-  color: #f5f5f5;
+.card-title {
+  color: #000000;
 }
-.titlecard{
+.titlecard {
   text-align: center;
-  font-size: px;
+  font-size: 40px;
   color: #f6c43d;
+  padding-right: 30px;
   padding-top: 80px;
   margin-bottom: 50px;
 }
-.headercard{
-text-align: center;
-color: #ffffff;
-font-size: 60px;
-}
-.contcard{
+.headercard {
   text-align: center;
-  color:#898989;
-  margin-top: 20px;
- 
+  color: #ffffff;
+  font-size: 60px;
 }
-.containernext{
+.contcard {
+  text-align: center;
+  color: #898989;
+  margin-top: 20px;
+}
+.containernext {
   margin-top: 300px;
 }
-.imagealf{
-  margin-bottom:100px;
+.imagealf {
+  margin-bottom: 100px;
   margin-left: 39rem;
-  margin-right: 5rem;
+  margin-right: 0rem;
   margin-top: -28rem;
-  width:52%;
+  width: 60%;
   padding-right: 50px;
-  ;
-
 }
 
-   .paragrafblock {
-     font-size: 20px;
-     margin-top: 20px;
-     margin-bottom: 30px;
-     padding-bottom: 100px;
-     text-align: left;
-   }
+.paragrafblock {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 100px;
+  text-align: left;
+}
 
-  .clock{
-     margin-top: 10px;
-     margin-left: 30px;
-     font-family: sans-serif;
-     color:#f6c43d
-   }
+.clock {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #f6c43d;
+}
 
-  .card-bod{
-    margin-top: 100px;
-    padding-top: 100px;
-   }
+.card-bod {
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.blocks {
+  margin-top: 100px;
+  padding-left: 30px;
+}
+.paragrafs {
+  margin-top: 5rem;
+  text-align: center;
+  color: #f6c43d;
+}
+.titleblocks {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+.partext {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: normal;
+  color: #898989;
+}
+.lists {
+  border: none;
+  color: #898989;
+  margin-top: 15px;
+  height: 40px;
+}
+.cardtitleone {
+  color: #ffffff;
+}
+.listone {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.listtwo {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.listthree {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.listfour {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.block {
+  background-color: #222222;
+  margin-right: -111px;
+  margin-left: -111px;
+  color: #f5f5f5;
+}
+.headcar {
+  padding-top: 50px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #f6c43d;
+}
+.headca {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 70px;
+}
+.headc {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  color: #898989;
+}
+#carouselExampleControls {
+  width: 50%;
+  margin-left: 25%;
+}
+.bd-example {
+  background-color: #222222;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: unset;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ffffff;
+  background-size: 100%;
+  margin: 15% auto;
+  padding: 100px;
+  border: 2px solid #f6c43d;
+  width: 30%;
+}
+
+/* The Close Button */
+.close {
+  color: #898989;
+  text-align: right;
+  margin-top: -90px;
+  margin-right: -70px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+.contentmod {
+  margin-top: 40px;
+  color: #898989;
+  text-align: center;
+  text-decoration: #f6c43d;
+}
+.closes {
+  margin-top: 40px;
+  text-align: center;
+}
+.headerprice{
+  margin-top: 8rem;
+  text-align: center;
+  color: #f6c43d;
+  font-size: 30px;
+  font-weight:bold;
+}
+.headertitle{
+  text-align: center;
+  padding-left: 20px;
+  font-size: 60px;
+  font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif ;
+}
+.headerparagraf{
+  text-align: center;
+  margin-top: 30px;
+  color: #898989;
+  font-family:sans-serif  ;
+}
+
+.cardsize{
+  display: flex;
+}
+
+.headerone{
+  color: #f6c43d;
+  margin-top: 60px;
+  text-align: left;
+
+}
+.priceone{
+  margin-top: 50px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: sans-serif;
+}
+.paragrafone{
+  font-size: 15px;
+text-align: left;
+color: #898989;
+margin-top: -5px;
+margin-left: 15px;
+font-family: sans-serif;
+}
+.list{
+  padding-top: 30px;
+}
+.lists{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.cardfone{
+  background-color:black;
+  background-image:url(/img/salon2.webp);
+  height: 100%;
+  margin-top: -25px;
+}
+.priceoll{
+  color: #f5f5f5;
+}
+.questions{
+  background-color: #222222;
+  margin-right: -99px;
+  margin-left: -99px;
+  color: #f5f5f5;
+  margin-bottom: -50px;
   
-  .blocks{
-    margin-top: 100px;
-    padding-left: 30px;
-    
-  }
-  .paragrafone{
-    margin-top: 5rem;
-    text-align: center;
-    color:#f6c43d
-    
-  }
-  .titleblocks{
-    text-align: center;
-    font-size: 4rem;
-    font-family: sans-serif;
-  }
-  .partext{
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: normal;
-    color:#898989
+}
+.faq{
+  color: #f6c43d;
+  text-align: center;
+  padding-top: 70px;
+}
+.quest{
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  padding-top: 30px;
+}
+.info{
+  color: #898989;
+  text-align: center;
+  padding-top: 30px;
+}
 
-  }
-  .lists{
-    border:none;
-    color: #898989;
-    margin-top: 15px;
-    height: 40px;
-
-  }
-  
-  .listone{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-width:0px;
-   
-  }
-  .listtwo{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  .listthree{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }.listfour{
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .block{
-    background-color:#222222;
-    margin-right: -111px ;
-    margin-left: -111px;
-    color:#f5f5f5
-    
-  }
- .headcar{
-   padding-top: 50px;
-   padding-right: 20px;
-   text-align: center;
-   font-size: 20px;
-   color:#f6c43d;
- }
- .headca{
-   text-align:center;
-   padding-top: 40px;
-   font-size: 70px;
- }
- .headc{
-   font-size: 18px;
-   text-align:center;
-   padding-top: 20px;
-   color:#898989
-  }
-  #carouselExampleControls{
-    width: 50%;
-    margin-left: 25%;
-  }
-  .bd-example{
-    background-color:#222222;
-  }
-
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow:unset; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-    background-color: #ffffff;
-    background-size:100%;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 100px;
-    border: 2px solid #f6c43d;
-    width: 30%; /* Could be more or less, depending on screen size */
-    
-  }
-  
-  /* The Close Button */
-  .close {
-    color:#898989;
-    text-align: right;
-    margin-top:-90px;
-    margin-right: -70px;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-   
-  }
-  .contentmod{
-    margin-top: 40px;
-    color: #898989;
-    text-align: center;
-    text-decoration: #f6c43d;
-   
-  }
-  .closes{
-    margin-top: 40px;
-    text-align: center;
-  }
+.colorcard{
+  background-color:#222222;
+}
+.headertwo{
+  color: #898989;
+  margin-top: 50px;
+  padding-bottom: -50px;
+}
+.bodcar{
+  padding-bottom: 150px;
+ margin-top: -100px;
+}

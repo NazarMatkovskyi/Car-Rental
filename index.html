@@ -7,6 +7,8 @@
         <link rel="icon" href="img/icon.jpg" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://maps-js.apissputnik.ru/v0.3/sputnik_maps_bundle.min.css" />
+       
       </head>
 
       <body>
@@ -36,13 +38,13 @@
               </button>
             
               <div class="menu" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                
-                  <a class="mx-4 nav-link" href="#aboutus">About us</a>
-                  <a class="mx-4 nav-link" href="#cars of the month">Cars of the month</a>
-                  <a class="mx-4 nav-link" href="#brief history">Brief History</a>
-                  <a class="mx-4 nav-link" href="#send a request">Send a request</a>
-                  <a class="mx-4 nav-link" href="#contact us">Contact us</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                  <a class="mx-4 nav-link" style="color: black;" href="#aboutus">About us</a>
+                  <a class="mx-4 nav-link" style="color: black;" href="#cars of the month">Cars of the month</a>
+                  <a class="mx-4 nav-link" style="color: black;" href="#brief history">Brief History</a>
+                  <a class="mx-4 nav-link" style="color: black;" href="#send a request">Send a request</a>
+                  <a class="mx-4 nav-link" style="color: black;"href="#Clear pricing">Clear pricing</a>
                   <p class="clock"></p>
                 </div>
               </div>
@@ -219,7 +221,7 @@
                 <div class="card cardgrey">
                   <img class="card-image mt-0" src="img/i8.jpg" />
                   <div class="card-body">
-                    <h5 class="card-title mt-3 mb-4 fs-2">Bmw I8</h5>
+                    <h5 class="card-title cardtitleone mt-3 mb-4 fs-2">Bmw I8</h5>
                     <p class="card-text mb-5">
                       This car is for true speed fans! If you love a fast ride, this car is for you! Feel all its force!
                     </p>
@@ -230,7 +232,7 @@
                 <div class="card cardgrey">
                   <img class="card-image mt-0" src="img/ford.webp" />
                   <div class="card-body">
-                    <h5 class="card-title mt-3 mb-4 fs-2">Ford Everest</h5>
+                    <h5 class="card-title cardtitleone  mt-3 mb-4 fs-2">Ford Everest</h5>
                     <p class="card-text mb-5">
                       This SUV is perfect for both the city and off-road. It has a spacious baggage compartment.
                     </p>
@@ -241,7 +243,7 @@
                 <div class="card cardgrey">
                   <img class="card-image mt-0" src="img/lex.webp" />
                   <div class="card-body">
-                    <h5 class="card-title mt-3 mb-4 fs-2">Lexus SX350</h5>
+                    <h5 class="card-title cardtitleone mt-3 mb-4 fs-2">Lexus SX350</h5>
                     <p class="card-text mb-5">
                       It's an elegant and comfortable business class car. Perfect for driving to a business meeting.
                     </p>
@@ -251,56 +253,53 @@
             </div>
           </div>
           <!--Forms-->
-            <div class="blocks">
+          <div class="blocks">
             <div class="card mt-3 m-lg-3 mb-5" style="width: 32rem; ; ">
-              <div class="card-content">
-                <p class="paragrafone" id="send a request">— Send a request</p>
-                <h3 class="titleblocks">Need to rent<br>cars?</h3>
-                <p class="partext">Complete the form below and we'll<br>contact you as soon as possible!</p>
+               <div class="card-content">
+                    <p class="paragrafs" id="send a request">— Send a request</p>
+                        <h3 class="titleblocks">Need to rent<br>cars?</h3>
+                           <p class="partext">Complete the form below and we'll<br>contact you as soon as possible!</p>
               </div>
             
             <form id="my_form">
-              <ul class="list-group list-group-flush">
+                 <ul class="list-group list-group-flush">
                 <label class="listone">
-                  <input class="lists" type="text" name="full name" placeholder="Enter your full name*" required>
-              </label>
-              <label class="listtwo">
-                  <input class="lists" type="text" name="phone namber" placeholder="Enter your phone number*" required>
-              </label>
-              <label class="listthree">
-                  <input class="lists" type="text" name="email" placeholder="Enter your e-mail*" required>
-              </label>
-              <label class="listfour">
-                  <input class="lists" type="text"  name="message" placeholder="Type your message*" required>
-              </label>
-          
+                 <input class="lists" type="text" name="full name" placeholder="Enter your full name*" required>
+                </label>
+                    <label class="listtwo">
+                    <input class="lists" type="text" name="phone namber" placeholder="Enter your phone number*" required>
+                   </label>
+                     <label class="listthree">
+                      <input class="lists" type="text" name="email" placeholder="Enter your e-mail*" required>
+                      </label>
+                         <label class="listfour">
+                        <input class="lists" type="text"  name="message" placeholder="Type your message*" required>
+                        </label>
           
               <button id="myBtn" class="btn rounded-pill text-uppercase mb-5 mt-4 m-lg-5" type="submit"  value="Complete Subscription" 
-              style="
+                 style="
                 font-family: sans-serif;
                 font-weight: bolder;
                 color: white;
                 background-color : #165bfb ;
               " >Request a qoute</button> 
-          </ul>
+               </ul>
           
-          <div id="myModal" class="modal">
-          
-            <div class="modal-content">
-            
-          <p class="contentmod mt-1">Thank you!</p>
-          <p class="contentmod mt-1">Will contact you shortly!</p>
-          <span class="closes">
-          <button type="button" class="btn btn-outline-warning ">Ok</button>
-        </span>
+               <div id="myModal" class="modal">
+                <div class="modal-content">
+                   <p class="contentmod mt-1">Thank you!</p>
+                      <p class="contentmod mt-1">Will contact you shortly!</p>
+                          <span class="closes">
+                           <button type="button" class="btn btn-outline-warning ">Ok</button>
+                 </span>
+               </div>
+             </div>
+           </form>
+         </div>
       </div>
-    </div>
-      </form>
-    </div>
-    </div>
           
             
-              <img class="imagealf" src="img/audinof.png" style="width: 50% mt-5" alt="imagefone" />
+              <img class="imagealf" src="img/audin.png" style="width: 50% mt-1" alt="imagefone" />
             </div> 
           </div>
         </div>
@@ -314,11 +313,11 @@
                 <div class="carousel-item active">
                   <img src="img/logo ford.webp" class="d-block w-100 " alt="First slide">
                 </div>
-                <div class="carousel-item">
-                  <img src="img/logobmw.webp" class="d-block w-100 " alt="1">
+                <div class="carousel-item content-carousel">
+                  <img src="img/logoaudi.webp" class="d-block w-100  " alt="1">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/logohonda.webp" class="d-block w-100 " alt="2">
+                  <img src="img/logohonda.webp" class="d-block w-100 " alt="3">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -330,9 +329,176 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            
+          </div>
+          <!--cards-->
+            <div class="price" >
+                <p class="headerprice" id="Clear pricing">— Rates</p>
+                <h3 class="headertitle">Clear pricing</h3>
+                <p class="headerparagraf" >You pay not for the model of the car but for its class. We offer not only the best luxury<br>cars but also the most favorable conditions for any rental period. </p>
+            </div>
+            <div class="row" style="margin-top: 100px; margin-bottom: 200px">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center px-5">
+                    <p class="card-text headerone">— SUVs</p>
+                    <h1 class="priceone">$ 150</h1>
+                    <p class="paragrafone">per day</p>
+                    <ul class="list">
+                      <li class="lists">Ford Everest</li>
+                      <li class="lists">Nissan X-Trail</li>
+                      <li class="lists">Suzuki Escudo</li>
+                    </ul>
+                    <a
+                      class="btn rounded-pill text-uppercase mb-5 mt-5" href="#send a request " 
+                      style="
+                        
+                        color: white;
+                        background-color: orange;
+                        border-color: orange;
+                      "
+                    >
+                      Rent a car
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card cardfone" >
+                  <div class="card-body text-center px-5">
+                    <p class="card-text headerone ">— Luxury</p>
+                    <h1 class="priceone priceoll">$ 390</h1>
+                    <p class="paragrafone priceoll">per day</p>
+                    <ul class="list">
+                      <li class="lists" style="color: white;">Lexus SX350</li>
+                      <li class="lists" style="color: white;">Jaguar XF</li>
+                      <li class="lists" style="color: white;">Audi A6</li>
+                    </ul>
+                    <a 
+                      class="btn rounded-pill text-uppercase mb-5 mt-5" href="#send a request "
+                      style="
+                        
+                        color: white;
+                        background-color: orange;
+                        border-color: orange;
+                      "
+                    >
+                      Rent a car
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card !respoinsive">
+                  <div class="card-body text-center px-5">
+                    <p class="card-text headerone">— Luxury</p>
+                    <h1 class="priceone">$ 500</h1>
+                    <p class="paragrafone">per day</p>
+                    <ul class="list">
+                      <li class="lists">McLaren Senna</li>
+                      <li class="lists">Porsche 911 GT2 RS</li>
+                      <li class="lists">Ford GT</li>
+                    </ul>
+                    <a
+                      class="btn rounded-pill text-uppercase mb-5 mt-5" href="#send a request "
+                      style="
+                        
+                        color: white;
+                        background-color: orange;
+                        border-color: orange;
+                      "
+                    >
+                      Rent a car
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          <div class="questions">
+              <p class="faq" >— FAQ</p>
+              <h3 class="quest">Frequently Asked Questions</h3>
+              <p class="info">We offer simple and transparent car rental conditions for any period. Look through the<br>information below, and if you have any questions, we will be happy to answer them.
+              </p>
+          <!--info-->
+          <div class="row" style="margin-top: 100px; margin-bottom: 200px">
+            <div class="col-md-4">
+              <div class="card colorcard">
+                <div class="card-body text-center px-5">
+                  <h4 class="servis">How can I rent a car with your service?</h4>
+                  <p class="card-text headertwo">
+                    You should come to our office or call us. Our specialist will help with the selection and make out the documents. </p>
+                  
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card colorcard" >
+                <div class="card-body text-center px-5">
+                  <h4 class="servis">
+                    How long does it take to pick up the car?</h4>
+                  <p class="card-text headertwo">
+                    You will have to wait no more than 20 minutes, and then you'll be able to pick up the car wherever you want.. </p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card colorcard">
+                <div class="card-body text-center px-5">
+                  <h4 class="servis">
+                    What is the minimum rental period?</h4>
+                  <p class="card-text headertwo">
+                    You can rent a car even for 1 day. The maximum period is not provided. We offer discounts for 10+ days of rental. </p>
+                 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 100px; margin-bottom: 200px">
+            <div class="col-md-4">
+              <div class="card colorcard">
+                <div class="card-body bodcar text-center px-5 x">
+                  <h4 class="servis">
+                    What if I want to extend the rental period?</h4>
+                  <p class="card-text headertwo">
+                    Just call our manager and ask to extend the rental period. The total amount will be charged from the card automatically.  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card colorcard" >
+                <div class="card-body bodcar text-center px-5">
+                  <h4 class="servis">
+                    How do I pay for the rental period?</h4>
+                  <p class="card-text headertwo">
+                    Before you pick up the car, specify your credit card details. When you return the car, we charge the total amount.  </p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card colorcard">
+                <div class="card-body bodcar text-center px-5">
+                  <h4 class="servis">
+                    Do you have any age or other restrictions?</h4>
+                  <p class="card-text headertwo">
+                    Each driver should have a valid driver‘s license for the duration of the rental period and be at least age 18.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--info-->
+        </div>
         </main>
+        
+       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
+    
       </body>
     </html>
