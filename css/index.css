@@ -411,7 +411,7 @@ font-family: sans-serif;
 
 .cardfone{
   background-color:black;
-  background-image:url(/img/salon2.webp);
+  background-image:url(../img/salon2.webp);
   height: 100%;
   margin-top: -25px;
 }
