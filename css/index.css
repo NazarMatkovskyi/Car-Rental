@@ -459,6 +459,24 @@ font-family: sans-serif;
 }
 .contcolor{
   background-color:#222222;
-  margin-top: -130px;
-  padding-top: 90px;
+  margin-top: -173px;
+  padding-top: 80px;
+}
+.navcar{
+  padding-bottom: 80px;
+  padding-left: 30px;
+  font-size: 40px;
+}
+.navbar-light .navbar-brand {
+  color:#f6c43d;
+}
+.footertitle{
+  color:white;
+}
+.footernavs{
+  margin-left: 200px;
+
+}
+.line{
+  color: #f6c43d;
 }
