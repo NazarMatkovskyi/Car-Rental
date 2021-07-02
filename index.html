@@ -7,7 +7,7 @@
         <link rel="icon" href="img/icon.jpg" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css" />
-        <link rel="stylesheet" href="https://maps-js.apissputnik.ru/v0.3/sputnik_maps_bundle.min.css" />
+       
        
       </head>
 
@@ -138,8 +138,8 @@
               </div>
             </div>
           </div>
-          <div class="container">
-            <img src="img/bmwpng.png" style="width: 100%" alt="imagefone" />
+          <div class="container cantas">
+            <img src="img/bmwpng.png" style="width: 100%;" alt="imagefone" />
             <h4 class="fone mb-5" id="aboutus">—meet FastCar</h4>
             <h2 class="title fw-bold  ">About Us</h2>
             <p >We do everything for you to drive with <br />maximum comfort!</p>
@@ -493,33 +493,70 @@
             </div>
             <hr class="line">
           </div>
-        
-          <!--info-->
         </div>
+    <div class="mapscont">
+      <div id="map"></div>
+      <div class="col-md-4">
+        <div class="card mapcard">
+          <div class="card-body text-center px-5">
+            <p class="card-text headerone" style="font-size: 25px;">— FASTCAR HEADQUARTER</p>
+            <h1 class="priceone" style="font-size: 50px; color:rgb(255, 255, 255)">Contacts</h1>
+            <p style="font-size: 20px; color:#898989;">Lviv, 169G Pasichna Street, Ukraine.</p>
+            <ul class="list">
+              <li class="lists" style="color:#898989; font-size: 18px;"> +380935128378</a></li>
+              <li class="lists"> <a class="send" href="https://mail.google.com/mail/u/0/#inbox"> matkovskuyn@gmail.com</a></li>
+              
+            </ul>
+            <a
+              class="btn rounded-pill text-uppercase mb-5 mt-3" href="#send a request "
+              style="
+                
+                color: white;
+                background-color: orange;
+                border-color: orange;
+              "
+            >
+              Rent a car
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
         </main>
-        <footer>
+         <footer>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid contcolor">
-              <a class="navbar-brand navcar" href="#">FastCar<br><span class="footertitle">Rental</span></a>
+              <a class="navbar-brand navcar" href="#"><span class="footertitle">FastCar</span><br>Rental</span></a>
+              
+                
+               
+            
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav footernavs">
-                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255);" href="#aboutus">About us</a>
-                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255);" href="#cars of the month">Cars of the month</a>
-                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255);" href="#brief history">Brief History</a>
-                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255);" href="#send a request">Send a request</a>
-                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255);"href="#Clear pricing">Clear pricing</a>
+                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255); padding-right: 50px;" href="#aboutus">About us</a>
+                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255); padding-right: 50px;" href="#cars of the month">Cars of the month</a>
+                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255); padding-right: 50px;" href="#brief history">Brief History</a>
+                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255); padding-right: 50px;" href="#send a request">Send a request</a>
+                  <a class="mx-4 nav-link" style="color: rgb(255, 255, 255); padding-right: 50px;"href="#Clear pricing">Clear pricing</a>
+                  
                 </div>
-              </div>
-            </div>
-          </nav>
-          
+                <p1 class="casel">© Created by</p1>
+          <div>
+          </div>
+        </nav> 
         </footer>
-        
+       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1362xgW6cZ7KG6t6WhaegBoMbGKQRRBs&callback=initMap&libraries=&v=weekly"
+        async
+      ></script>
     
       </body>
     </html>

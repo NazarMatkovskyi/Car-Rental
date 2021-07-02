@@ -166,9 +166,15 @@ main p {
 }
 .cardgrey {
   background-color: #222222;
+  min-width: 200px;
+  max-width: 400px;
+  height: 750px;
 }
 .card-title {
   color: #000000;
+}
+.text-center {
+    text-align: center!important;
 }
 .titlecard {
   text-align: center;
@@ -447,6 +453,8 @@ font-family: sans-serif;
 }
 .colorcard{
   background-color:#222222;
+  background-size:cover;
+  
 }
 .headertwo{
   color: #898989;
@@ -454,29 +462,60 @@ font-family: sans-serif;
   padding-bottom: -50px;
 }
 .bodcar{
-  padding-bottom: 150px;
- margin-top: -100px;
+  margin-top: -150px;
 }
 .contcolor{
   background-color:#222222;
   margin-top: -173px;
-  padding-top: 80px;
+  padding-top: 10px;
+  margin-bottom: -20px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 .navcar{
-  padding-bottom: 80px;
+  padding-bottom: 28px;
   padding-left: 30px;
+  text-align: center;
   font-size: 40px;
 }
 .navbar-light .navbar-brand {
   color:#f6c43d;
 }
 .footertitle{
-  color:white;
+  color:rgb(253, 253, 253);
 }
 .footernavs{
-  margin-left: 200px;
+  margin-left: 100px;
 
 }
 .line{
   color: #f6c43d;
+}
+.casel{
+  color: #f6c43d;
+  padding-top: 120px;
+
+}
+.mapscont{
+  display: flex;
+  margin-bottom: 200px;
+  margin-left: 200px;
+ 
+}
+#map{
+  height: 600px;
+  width: 600px;
+  border-bottom: 30px;
+  border: 5px solid #222222;
+}
+.mapcard{
+  background-color:#222222;
+  margin-bottom: -80px;
+  margin-left:30px;
+}
+.send{
+  color:#898989;
+  font-size: 18px;
+  text-decoration: none;
+  
 }

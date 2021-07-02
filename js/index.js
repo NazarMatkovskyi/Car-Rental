@@ -1,9 +1,11 @@
+//clock\\
 function updateClock() {
   const clockContainer = document.querySelector(".clock");
   clockContainer.innerText = new Date().toLocaleTimeString("uk");
 }
 setInterval(updateClock, 1000);
 
+//modal window\\
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
 const span = document.getElementsByClassName("closes")[0];
@@ -23,4 +25,14 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+  
+     //map//
 
+ function initMap(){
+   var opt = {
+     center: {lat: 49.80481558782664, lng: 24.075710465259668},
+    zoom: 17
+   }
+   
+   var map = new google.maps.Map(document.getElementById("map"),opt);
+ }
