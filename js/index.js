@@ -29,10 +29,13 @@ window.onclick = function (event) {
      //map//
 
  function initMap(){
-   var opt = {
+   const opt = {
      center: {lat: 49.80481558782664, lng: 24.075710465259668},
     zoom: 17
    }
    
-   var map = new google.maps.Map(document.getElementById("map"),opt);
+   const map = new google.maps.Map(document.getElementById("map"),opt);
  }
+ ///////
+
+ 
